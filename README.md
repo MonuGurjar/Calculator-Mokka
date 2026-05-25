@@ -20,7 +20,7 @@ curl -sSL https://raw.githubusercontent.com/MonuGurjar/Calculator-Mokka/main/ins
 If you have downloaded the folder locally, simply navigate to the directory and run the installation script:
 
 ```bash
-cd calcu
+cd Calculator-Mokka
 chmod +x install.sh
 ./install.sh
 ```
