@@ -1,0 +1,64 @@
+QWidget {
+    background-color: #1e1e24;
+    color: white;
+    font-family: 'Inter', 'Roboto', 'Segoe UI', sans-serif;
+}
+
+QLineEdit {
+    background-color: #1e1e24;
+    color: white;
+    font-size: 48px;
+    border: none;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+QPushButton {
+    background-color: #2b2b36;
+    color: white;
+    font-size: 24px;
+    border-radius: 15px;
+    margin: 5px;
+}
+
+QPushButton:hover {
+    background-color: #3b3b46;
+}
+
+QPushButton:pressed {
+    background-color: #1e1e24;
+}
+
+/* Number buttons (Purple outline) */
+QPushButton[buttonClass="number"] {
+    border: 2px solid #b82bf2;
+}
+
+QPushButton[buttonClass="number"]:hover {
+    background-color: rgba(184, 43, 242, 0.2);
+}
+
+/* Operator buttons (Orange outline) */
+QPushButton[buttonClass="operator"] {
+    border: 2px solid #ff7b00;
+}
+
+QPushButton[buttonClass="operator"]:hover {
+    background-color: rgba(255, 123, 0, 0.2);
+}
+
+/* Equal button (Solid Cyan) */
+QPushButton#btn_equal {
+    background-color: #00e5ff;
+    color: #1e1e24;
+    border: none;
+    font-weight: bold;
+}
+
+QPushButton#btn_equal:hover {
+    background-color: #00ffff;
+}
+
+QPushButton#btn_equal:pressed {
+    background-color: #00b3cc;
+}
