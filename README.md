@@ -5,7 +5,7 @@ A sleek, modern, neon dark-mode calculator application built with Python and PyS
 ## Features
 - **Neon Dark-Mode UI**: Vibrant purple and orange highlights on a dark background.
 - **Keyboard Support**: Full keyboard input support for seamless calculation.
-- **Linux Desktop Integration**: Automatically creates a `.desktop` file to show up in your application menu with a custom icon.
+- **Linux Desktop Integration**: Automatically show up in your application menu with a custom icon.
 
 ## Installation
 
